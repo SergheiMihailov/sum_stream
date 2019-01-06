@@ -12,7 +12,7 @@ Stream<int> s_2 = getStream();
 // Stream<Future<int>> resolver = new Stream.periodic(
 //   Duration(seconds:1), 
 //   (int val) async {
-//     int a = await s_1.last; // listens to the same stream more than once :/
+//     int a = await s_1.last; // listens to the same stream more than once? :/
 //     int b = await s_2.last; // same
 //     sum = a+b; // cheat, doesn't work
 //     return a+b;
